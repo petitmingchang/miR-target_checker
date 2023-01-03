@@ -2,7 +2,7 @@
 Using user defined lists of up-reguated differentially expressed (DE) microRNA and down-regulated DE gene or vice versa from transcriptomic data to check known miRNA-target dataset.
 
 ### How to run the program
-First step is to compile the source code to executive file by C++ compliler 
+First step is to compile the source code to executive file by C++ compliler. Except for Linux, both MacOS and Windows require installing a command-line C++ compiler tool first. On MacOS, you can download the Apple Xcode and install it from Apple Developer website. On Windows, you can download the open-source C++ compiler and follow the installation instruction from the CygWin website.
 ```sh
 g++ miR-target_checker.cpp -o miR-target_checker
 ```
